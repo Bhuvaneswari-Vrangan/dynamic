@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom'
+
+// Change to:
+import { HashRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
@@ -21,5 +25,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
